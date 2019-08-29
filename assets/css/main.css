@@ -438,7 +438,7 @@
 
 .items-details {
     width: 12em;
-    height: 15em;
+    height: 12em;
     transition: .3s cubic-bezier(0.38, 0.26, 0.72, 0.71);
 }
 
@@ -460,30 +460,51 @@
 .items-title {
     text-transform: uppercase;
     margin-top: 1em;
+    margin-bottom: 0em !important;
     text-align: left;
+}
+
+.items-title-3nd-last {
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 0em !important;
+    text-align: left;
+    font-size: 0.9em;
 }
 
 .items-title-2nd-last {
     text-transform: uppercase;
-    margin-top: 1em;
+    margin-top: -0.8em;
+    margin-bottom: 0em !important;
     text-align: left;
-    letter-spacing: 0.14em
+    letter-spacing: 0.12em
 }
 
 .items-title-last {
     text-transform: uppercase;
     margin-top: 1em;
+    margin-bottom: 0em !important;
     text-align: center;
 }
 
 .items-info {
     opacity: 0;
     text-align: left;
-    font-size: 0.1em;
+    font-size: 8px;
     text-transform: capitalize;
     line-height: 2.4em;
     margin-bottom: 0px;
-    transition: .5s cubic-bezier(0.38, 0.26, 0.72, 0.71);
+    transition: .1s cubic-bezier(0.38, 0.26, 0.72, 0.71);
+}
+
+.items-info-2nd-last {
+    opacity: 0;
+    text-align: left;
+    font-size: 0.1px;
+    text-transform: capitalize;
+    line-height: 2.4em;
+    margin-bottom: 0px;
+    transition: .1s cubic-bezier(0.38, 0.26, 0.72, 0.71);
 }
 
 
@@ -494,7 +515,7 @@
     text-transform: capitalize;
     line-height: 2.4em;
     margin-bottom: 0px;
-    transition: .5s cubic-bezier(0.38, 0.26, 0.72, 0.71);
+    transition: .1s cubic-bezier(0.38, 0.26, 0.72, 0.71);
 }
 
 .items-link {
