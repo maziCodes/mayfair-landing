@@ -537,3 +537,98 @@
 /* Process  ends*/
 
 
+
+
+/* Inspiration starts */
+
+.inspiration {
+    margin-top: 3em;
+}
+
+.inspiration-title-container {
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+.inspiration-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+}
+
+.inspiration-row-1 {
+    margin-bottom: 10em;
+}
+
+.blog-content {
+    width: 30em;
+    margin: auto auto
+}
+
+.blog-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+}
+
+.blog-details {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.blog-details a {
+    color: rgba(253,214,32,0.8) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.blog-direction {
+    width: 14.5%;
+    float: right;
+}
+
+.blog-direction:after {
+    clear: right;
+}
+
+.blog-direction-left {
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 1.5em;
+    border: 3px solid rgba(253,214,32,0.8);
+    padding: 0.2em;
+}
+
+.blog-direction-right {
+   width: 1.8em;
+    height: 1.8em;
+    border: 3px solid rgba(253,214,32,0.8);
+    padding: 0.2em;
+}
+
+.blog-col {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.blog-images-container {
+    margin-left: 3.94%;
+}
+
+.blog-images {
+    width: 12em;
+    height: 12em;
+    margin-right: 0.5em;
+}
+
+.blog-images:nth-child(3) {
+    margin-right: 0em;
+}
+
+/* Inspiration ends */
+
+
