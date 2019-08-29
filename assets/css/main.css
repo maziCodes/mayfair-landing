@@ -1,0 +1,457 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Lexend Zetta', sans-serif; */
+}
+
+.mazi-container {
+    padding: 0px;
+}
+
+.top-section {
+    background-image: linear-gradient(90deg, rgba(255,252,243,1) 0%, rgba(255,252,243,1) 6%, rgba(255,252,243,1) 30%, rgba(253,214,32,1) 3%);
+    padding-top: 1%;
+}
+
+/* Nav Bar starts */
+
+
+.logo {
+    width: 2em;
+    height: 2em;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 0.1em;
+    vertical-align: middle;
+    margin-left: -6px;
+    font-weight: bolder;
+}
+
+.mazi-nav-items {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: 4.5em
+}
+
+.shopping-icon {
+    width: 2em;
+    height: 2em;
+}
+
+.shopping-icon + span {
+    vertical-align: middle;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+/* Nav Bar ends */
+
+
+
+/* Hero  starts*/
+
+.mazi-hero-main{
+    text-align: center;
+    margin-top: 1.5em;
+}
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+.mazi-hero-left-icons {
+    height: 23em;
+}
+
+.mazi-hero-left-icons1 {
+    text-align: right;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+.mazi-hero-number{
+    display: block;
+}
+
+.mazi-line {
+    position: relative;
+    left: 96%;
+    width: 0.2em;
+    height: 4em;
+    display: block;
+}
+
+.mazi-line1 {
+    background-color: rgba(253,214,32,0.8)
+}
+.mazi-line2 {
+    background-color: #220D0F
+}
+
+.mazi-hero-number {
+    color: #220D0F;
+    font-weight: 700;
+}
+
+.mazi-hero-icon {
+    width: 1em;
+}
+
+.mazi-hero-icon:nth-child(1) {
+    border: 2px solid rgba(253,214,32,0.8);
+    padding: 7px;
+    width: 3em;
+}
+
+.mazi-hero-icon:nth-child(2) {
+    float: right;
+}
+
+.mazi-hero-img1 {
+    background-image: url("../img/mayfair-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: 23em;
+
+}
+
+.mazi-hero-project {
+    position: relative;
+    left: 95%;
+    display: inline-block;
+    color: rgba(253,214,32,1);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border-left: 1px solid rgba(253,214,32,1);
+    border-bottom: 1px solid rgba(253,214,32,1);
+    padding: 2em 0em 1em 2em;
+    cursor: pointer;
+}
+
+.mazi-hero-project p {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.mazi-hero-project img {
+    color: rgba(253,214,32,1);
+}
+
+.mazi-hero-row1-main {
+    position: relative;
+    background-color: rgba(245, 227, 175, 0.26);
+    padding: 4em 0em 1.5em 1.5em;
+    margin-left: -1em;
+    top: -5em;
+    width: 18em;
+}
+
+.mazi-hero-text {
+    display: block;
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+    text-shadow: 0px 2px 2px rgba(44, 43, 43, 0.356);
+    overflow: visible;
+    width: 129%;
+}
+
+.mazi-hero-greeting {
+    text-transform: uppercase;
+    font-size: 1.01em;
+
+}
+
+.mazi-hero-link {
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(253,214,32,1);
+    text-shadow: 0px 2px 2px rgba(44, 43, 43, 0.356);
+
+}
+
+/* Hero row 2 */
+.mazi-hero-row2 {
+    text-align: center;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.mazi-hero-explore, .mazi-hero-brands {
+    display: inline-block;
+}
+
+.mazi-hero-explore {
+    margin-right: 5em;
+    margin-left: 9em;
+}
+
+.explore{
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.mazi-hero-arrow-down-container {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+.mazi-hero-arrow-down {
+    width: 0.5em;
+}
+
+.mazi-hero-img2 {
+    width: 3.5em;
+    height: 2.8em;
+}
+
+/* Hero  ends*/
+
+
+
+/* Brief History starts*/
+
+
+.mazi-brief-history-main {
+    margin-top: 3.5em !important;
+    padding: 0px;
+    margin-bottom: 2em;
+}
+
+.mazi-brief-history-col {
+    padding-left: 0px;
+}
+
+.mazi-brief-history-img {
+    width: 100%;
+    height: 78.5%;
+}
+
+.intro {
+    color: #212120;
+    font-size: 1.6em;
+    word-spacing: 0.8em;
+    letter-spacing: 0.2em;
+    width: 100%;
+    line-height: 2.3em;
+
+}
+
+.intro span {
+    color: rgb(253, 214, 32);
+}
+
+.info {
+    color: #31312f;
+    width: 100%;
+    font-size: 0.9em;
+    line-height: 2em;
+    word-spacing: 0.4em;
+}
+
+.features-row {
+    margin-top: 1.9em;
+}
+
+.features {
+    display: inline-block;
+    width: 15em;
+    font-size: 90%;
+}
+
+.features img{
+    width: 2.5em;
+    height: 2.5em;
+    border: 2px solid rgb(210, 208, 208);
+    padding: 0.2em
+}
+
+.features span {
+    margin-left: 1em;
+}
+
+.features-btn-container {
+    margin-top: 3em;
+}
+
+.features-btn {
+    margin-left: 4em;
+    background-color: rgb(253, 214, 32);
+    padding: 1em 1.4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-color: rgb(253, 214, 32);
+    box-shadow: 0px 1px 5px rgba(150, 150, 150, 0.4);
+}
+
+/* Brief History ends*/
+
+
+
+/* Projects  starts*/
+
+.project {
+    padding-top: 2em;
+    background-color: rgba(255,252,243,1);
+    height: 40.3em;
+}
+
+.project-title {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.project-title-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.project-img {
+    text-align: right;
+    padding-right: 0.35em;
+}
+
+.project-img-right {
+    margin-top: 2em;
+    padding-left: 0.35em;
+}
+
+.project-img1 {
+    width: 80%;
+    height: 37.5em;
+    object-fit: cover;
+    box-sizing: padding-box;
+
+}
+
+.project-img2 {
+    width: 80%;
+    height: 32em;
+    object-fit: cover;
+}
+
+
+.project-img2-div::after {
+    content: '';
+    width: 59%;
+    height: 26em;
+    background-color:  #000000;
+    position: absolute;
+    left: 10%;
+    top: 9%;
+    opacity: 0.3;
+}
+
+
+.project-direction {
+    position: relative;
+    left: 45.4%;
+    bottom: 3.5em;
+}
+
+.project-left {
+    width: 3.1em;
+    height: 3.1em;
+    background-color: #000000;
+    padding: 1em 0.7em 0.5em 0.7em;
+    margin-right: -0.1em;
+}
+
+.project-right {
+    width: 3.1em;
+    height: 3.1em;
+    background-color: #000000;
+    padding: 1em 0.7em 0.5em 0.7em;
+}
+
+/* Projects  ends*/
+
+
+
+/* Process  starts*/
+
+.process {
+    margin-top: 6.5em;
+}
+
+.process-btn-container {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.process-btn {
+    border: 2px solid rgb(253, 214, 32);
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 1em 3em;
+}
+
+.process-bg {
+    background-image: url("../img/mag4.jpg");
+    background-position: center;
+    background-size: cover;
+    /* height: 40em; */
+}
+
+.process-items {
+    border-right: 1px solid #d4d0d0;
+    width: 20%;
+    padding-top: 40%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.process-items-last {
+    width: 20%;
+    padding-top: 40%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.items-details1 {
+    width: 10em;
+}
+
+.items-img {
+    width: 4em;
+    height: 4em;
+
+}
+
+.items-title {
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-align: left
+}
+
+.items-info {
+    text-align: left;
+    font-size: 0.1em;
+    text-transform: capitalize;
+}
+
+.items-link {
+    text-align: left
+}
+
+.items-link a {
+    color: rgb(253, 214, 32) !important;
+}
+
+/* Process  ends*/
+
+
