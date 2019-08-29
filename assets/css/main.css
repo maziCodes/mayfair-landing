@@ -407,23 +407,44 @@
     /* height: 40em; */
 }
 
+.process-items-first {
+    border-right: 1px solid #d4d0d0;
+    width: 20%;
+    padding-top: 41%;
+    height: 45em;
+    text-align: center;
+    color: #ffffff;
+    transition: .6s cubic-bezier(0.71, 0.1, 0.14, 1.09);
+}
+
 .process-items {
     border-right: 1px solid #d4d0d0;
     width: 20%;
-    padding-top: 40%;
+    padding-top: 41%;
+    height: 45em;
     text-align: center;
     color: #ffffff;
 }
 
+
+/* handle border  */
 .process-items-last {
     width: 20%;
-    padding-top: 40%;
+    padding-top: 41%;
+    height: 45em;
     text-align: center;
     color: #ffffff;
 }
 
-.items-details1 {
-    width: 10em;
+.items-details {
+    width: 12em;
+    height: 15em;
+    transition: .3s cubic-bezier(0.38, 0.26, 0.72, 0.71);
+}
+
+.items-details:hover {
+    margin-top: -7em;
+    transition: .3s cubic-bezier(0.38, 0.26, 0.72, 0.71);
 }
 
 .items-img {
@@ -432,25 +453,65 @@
 
 }
 
+.items-text-content {
+    margin-left: 1em;
+}
+
 .items-title {
     text-transform: uppercase;
     margin-top: 1em;
-    text-align: left
+    text-align: left;
+}
+
+.items-title-2nd-last {
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-align: left;
+    letter-spacing: 0.14em
+}
+
+.items-title-last {
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-align: center;
 }
 
 .items-info {
+    opacity: 0;
     text-align: left;
     font-size: 0.1em;
     text-transform: capitalize;
+    line-height: 2.4em;
+    margin-bottom: 0px;
+    transition: .5s cubic-bezier(0.38, 0.26, 0.72, 0.71);
+}
+
+
+.items-info:hover {
+    opacity: 1;
+    text-align: left;
+    font-size: 0.1em;
+    text-transform: capitalize;
+    line-height: 2.4em;
+    margin-bottom: 0px;
+    transition: .5s cubic-bezier(0.38, 0.26, 0.72, 0.71);
 }
 
 .items-link {
     text-align: left
 }
 
-.items-link a {
+.items-link {
     color: rgb(253, 214, 32) !important;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+.items-link:hover {
+    text-decoration: none;
+}
+
 
 /* Process  ends*/
 
