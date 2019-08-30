@@ -684,3 +684,56 @@
 /* Inspiration ends */
 
 
+
+/* Footer starts */
+
+.footer {
+    margin-top: 2em;
+    background-color: #fff7d3;
+    height: 25em;
+}
+
+.footer-row1 {
+    border: 1px solid red;
+    height: 2em;
+}
+
+.footer-items {
+    border: 1px solid green;
+    height: 2em;
+}
+
+.footer-row2 {
+    border: 1px solid blue;
+    height: 2em;
+}
+
+.footer-social-img {
+   display: inline-block;
+}
+
+.instagram {
+
+}
+
+.facebook {
+
+}
+
+.linkedin {
+
+}
+
+.youtube {
+    width: 1em;
+/*     height: 1em; */
+}
+
+.twitter {
+    width: 1.5em;
+}
+
+
+/* Footer ends */
+
+
