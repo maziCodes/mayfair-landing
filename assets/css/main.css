@@ -604,7 +604,7 @@
 }
 
 .blog-direction-right {
-   width: 1.8em;
+    width: 1.8em;
     height: 1.8em;
     border: 3px solid rgba(253,214,32,0.8);
     padding: 0.2em;
@@ -627,6 +627,58 @@
 
 .blog-images:nth-child(3) {
     margin-right: 0em;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #D1E2D1;
+    padding: 7em 5em;
+    border-top-left-radius: 01em;
+    border-top-right-radius: 12.3em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 10em;
+    clip-path: polygon(0% 0%, 95% 10%, 100% 100%, 3% 90%);
+    /* inline-size: fit-content; */
+}
+
+.quote-content {
+    background-color: #ffffff;
+    margin: auto;
+    width: 60em;
+    padding: 5em 3em 3em 3em;  
+}
+
+.quote-title {
+    font-size: 1.5em;
+
+}
+
+.quote-details {
+    font-size: 1.0em;
+    margin: 2em 0em;
+    line-height: 2em;
+    width: 85%;
+}
+
+.quote-input {
+    padding: 0.8em;
+    width: 22em;
+}
+
+.quote-input::placeholder {
+    color: #c7c7c7;
+    font-size: 0.8em;
+}
+
+.quote-btn {
+    background-color: rgb(253, 214, 32);
+    text-transform: uppercase;
+    border-color: rgb(253, 214, 32);
+    font-weight: bold;
+    padding: 0.9em 2.5em;
+    margin-left: 0.5em;
+
 }
 
 /* Inspiration ends */
