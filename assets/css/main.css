@@ -134,7 +134,7 @@
 }
 
 .mazi-hero-project p {
-    text-orientation: upright;
+    text-orientation: mix;
     writing-mode: vertical-lr;
     font-weight: bold;
     margin: 0px;
@@ -586,6 +586,10 @@
     font-size: 0.8em;
 }
 
+.blog-details a:hover {
+    text-decoration: none;
+} 
+
 .blog-direction {
     width: 14.5%;
     float: right;
@@ -690,11 +694,10 @@
 .footer {
     margin-top: 2em;
     background-color: #fff7d3;
-    height: 24em;
+    height: 23.4em;
 }
 
 .footer-row1 {
-    border: 1px solid red;
     height: 20em;
 }
 
@@ -713,7 +716,6 @@
 
 
 .footer-items {
-    border: 1px solid green;
     height: 20em;
 }
 
@@ -741,32 +743,62 @@
     margin: 1.2em 0em;
 }
 
+.fi2 {
+    margin-left: -2em;
+}
+
+.footer-project-btn {
+    position: absolute;
+    top: 4em;
+    left: 20.4em;
+    float: right;
+    border: 1px solid #000000;
+    padding: 1em .4em .4em .8em;
+    writing-mode: vertical-rl;
+    text-orientation: mix;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: .6em;
+}
+
 .footer-contact-items {
-    /* list-style-image: url('../icons/phone.svg') !important; */
+    list-style: none;
     background-position: center;
+    margin-top: 5em;
+    padding-left: 10px !important;
+}
+
+.footer-items-logo {
+    width: 1.5em;
+    margin-right: .7em
 }
 
 .footer-contact-items li {
     font-size: 0.6em;
     font-weight: bold;
+    padding-bottom: .8em
 }
 
-
 .footer-row2 {
-    border: 1px solid blue;
-    height: 4em;
+    height: 1em;
+    border-top: 1px solid rgb(160, 160, 160);
 }
 
 
 .footer-copyright {
-    border: 1px solid pink;
-    text-align: center
+    text-align: center;
+}
+
+.footer-copyright p {
+    color: #888888;
+    margin: 20px 0px;
+    font-size: .5em
 }
 
 .footer-social {
-    border: 1px solid red;
     padding: 0px;
     text-align: center;
+    margin-top: .6em;
 }
 
 .footer-social-img {
@@ -774,25 +806,25 @@
 }
 
 .instagram {
-    width: 1.5em
+    width: 1.1em
 }
 
 .facebook {
-    width: 2em;
-/*     height: 1em; */
+    width: 1.8em;
+    /*     height: 1em; */
 }
 
 .linkedin {
-    width: 1em;
+    width: 0.9em;
 }
 
 .youtube {
-    width: 1.5em;
+    width: 1.2em;
 /*     height: 1em; */
 }
 
 .twitter {
-    width: 1.5em;
+    width: 1.2em;
 }
 
 
