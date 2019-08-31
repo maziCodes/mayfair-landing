@@ -694,7 +694,7 @@
 .footer {
     margin-top: 2em;
     background-color: #fff7d3;
-    height: 23.7em;
+    height: 23.4em;
 }
 
 .footer-row1 {
@@ -781,15 +781,8 @@
 
 .footer-row2 {
     height: 1em;
-    width: 68em;
-    margin-left: 1px;;
+    border-top: 1px solid rgb(160, 160, 160);
 }
-
-
-.footer-copyright, .footer-social-col {
-   border-top: 1px solid rgba(206, 206, 206, 0.6);
-}
-
 
 
 .footer-copyright {
@@ -803,7 +796,7 @@
 }
 
 .footer-social {
-    padding-left: 8em;
+    padding: 0px;
     text-align: center;
     margin-top: .6em;
 }
