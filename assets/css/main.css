@@ -1,5 +1,6 @@
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px !important;
     /* font-family: 'Lexend Zetta', sans-serif; */
 }
 
@@ -150,7 +151,7 @@
     background-color: rgba(245, 227, 175, 0.26);
     padding: 4em 0em 1.5em 1.5em;
     margin-left: -1em;
-    top: -5em;
+    top: -3em;
     width: 18em;
 }
 
@@ -188,6 +189,11 @@
 .mazi-hero-explore, .mazi-hero-brands {
     display: inline-block;
 }
+
+.mazi-hero-explore-sm {
+    display: none;
+}
+
 
 .mazi-hero-explore {
     margin-right: 5em;
@@ -333,8 +339,7 @@
     width: 80%;
     height: 37.5em;
     object-fit: cover;
-    box-sizing: padding-box;
-
+    box-sizing:border-box;
 }
 
 .project-img2 {
@@ -409,7 +414,7 @@
 
 .process-items-first {
     border-right: 1px solid #d4d0d0;
-    width: 20%;
+    /* width: 20%; */
     padding-top: 41%;
     height: 45em;
     text-align: center;
@@ -419,7 +424,7 @@
 
 .process-items {
     border-right: 1px solid #d4d0d0;
-    width: 20%;
+/*     width: 20%; */
     padding-top: 41%;
     height: 45em;
     text-align: center;
@@ -429,7 +434,7 @@
 
 /* handle border  */
 .process-items-last {
-    width: 20%;
+/*     width: 20%; */
     padding-top: 41%;
     height: 45em;
     text-align: center;
@@ -484,7 +489,7 @@
     text-transform: uppercase;
     margin-top: 1em;
     margin-bottom: 0em !important;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .items-info {
@@ -694,7 +699,7 @@
 .footer {
     margin-top: 2em;
     background-color: #fff7d3;
-    height: 23.7em;
+    height:;
 }
 
 .footer-row1 {
@@ -837,4 +842,352 @@
 
 /* Footer ends */
 
+
+/* Media Query starts */
+
+@media (max-width: 575.98px) { 
+
+    .mazi-line {
+        left: 80%;
+    }
+
+    .mazi-hero-icon:nth-child(1) {
+        width: 1.9em;
+        padding: 4px;
+        margin-right: 0.7em;
+    }
+
+
+    .mazi-hero-project {
+        left: 80%;
+    }
+    
+    .mazi-hero-row1-main {
+        width: 70%;
+        height: 61%;
+        top: 0em;
+    }
+
+    .mazi-hero-text {
+        width: 170%;
+        font-size: 0.6em;
+    }
+
+    .mazi-hero-explore {
+        position: relative;
+        top: 0.1%;
+    }
+
+    .mazi-hero-link {
+        font-size: 0.7em;
+    }
+
+    .mazi-hero-explore {
+        display: none;
+    }
+
+    .mazi-hero-explore-sm {
+        display: inline-block;
+        margin-top: 0.7em;
+    }
+
+    .mazi-brief-history-col {
+        padding: 0px;
+    }
+
+    .features {
+        width: 12em;
+        font-size: 0.8em
+    }
+
+    .features span{
+        margin-left: 0.2em;
+    }
+
+    
+    .project {
+        height: 77.8em;
+    }
+
+    .project-direction {
+        bottom: -0.5em;
+    }
+
+    .process-btn {
+        background-color: #ffffff;
+    }
+
+    .process-bg {
+        background-position:center;
+        background-size:contain;
+/*         background-repeat: no-repeat; */
+    }
+
+    .process-items-first, .process-items{
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0.2em;
+        text-align: left;
+    }
+
+    .process-items:nth-child(5), .process-items-first, .process-items {
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0em;
+        text-align: left;
+
+    }
+
+    .process-items-last {
+        text-align: left;
+    }
+
+    .process-items-first, .process-items, .process-items-last {
+/*         padding: 20% ; */
+        height: 25em;
+
+    }
+
+    .items-info {
+        opacity: 1;
+        font-size: 0.52em;
+        margin-top: .5em;
+        width: 19em;
+    }
+
+    .items-text-content {
+        margin-left: 0em;
+    }
+
+    .items-title-last {
+        text-align: left;
+    }
+
+    .items-details, .items-info, .items-info-2nd-last{
+        transition: none;
+        margin-top: 0em;
+    }
+    .items-info-2nd-last:hover .items-details:hover, .items-info:hover {
+        transition: none;
+        margin-top: 0em;
+    }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+     .mazi-line {
+        left: 80%;
+    }
+
+    .mazi-hero-icon:nth-child(1) {
+        width: 1.9em;
+        padding: 4px;
+        margin-right: 0.7em;
+    }
+    
+    .mazi-hero-project {
+        left: 80%;
+    }
+    
+    .mazi-hero-row1-main {
+        width: 70%;
+        height: 61%;
+        top: 0em;
+    }
+
+    .mazi-hero-text {
+        width: 170%;
+        font-size: 0.6em;
+    }
+
+    .mazi-hero-explore {
+        position: relative;
+        top: 0.1%;
+    }
+
+    .mazi-hero-link {
+        font-size: 0.7em;
+    }
+
+    .mazi-hero-explore {
+        display: none;
+    }
+
+    .mazi-hero-explore-sm {
+        display: inline-block;
+        margin-top: 0.7em;
+    }
+
+    .mazi-brief-history-col {
+        padding: 0px;
+    }
+    
+    .features span{
+        margin-left: 0em;
+    }
+
+    .features {
+        width: 12em;
+        font-size: 0.8em
+    }
+
+    .features span{
+        margin-left: 0.2em;
+    }
+
+
+    .project-direction {
+        bottom: -0.5em;
+    }
+    .process-btn {
+        background-color: #ffffff;
+    }
+
+    .process-bg {
+        background-position:center;
+        background-size:contain;
+/*         background-repeat: no-repeat; */
+    }
+
+    .process-items-first, .process-items{
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0.2em;
+        text-align: left;
+    }
+
+    .process-items:nth-child(5), .process-items-first, .process-items {
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0em;
+        text-align: left;
+
+    }
+
+    .process-items-last {
+        text-align: left;
+    }
+
+    .process-items-first, .process-items, .process-items-last {
+/*         padding: 20% ; */
+        height: 25em;
+
+    }
+
+    .items-info {
+        opacity: 1;
+        font-size: 0.52em;
+        margin-top: .5em;
+        width: 19em;
+    }
+
+    .items-text-content {
+        margin-left: 0em;
+    }
+
+    .items-title-last {
+        text-align: left;
+    }
+
+    .items-details, .items-info, .items-info-2nd-last{
+        transition: none;
+        margin-top: 0em;
+    }
+    .items-info-2nd-last:hover, .items-details:hover, .items-info:hover {
+        transition: none;
+        font-size: 0.52em;
+        margin-top: 0em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .mazi-hero-project {
+        left: 90.2%;
+    }
+
+    .features-row {
+        /* width: 3em; */
+        margin-top: 0.2em;
+    }
+
+    .features {
+        width: 14em;
+        font-size: 0.9em;
+        margin-bottom: 0.6em;
+    }
+
+    .features span{
+        margin-left: 0.2em;
+    }
+
+    .features-btn {
+        margin-left: 0em;
+    }
+    .process-btn {
+        background-color: #ffffff;
+    }
+
+    .process-bg {
+        background-position:center;
+        background-size:contain;
+/*         background-repeat: no-repeat; */
+    }
+
+    .process-items-first, .process-items{
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0.2em;
+        text-align: left;
+    }
+
+    .process-items:nth-child(5), .process-items-first, .process-items {
+        border: 1px solid #d4d0d0;
+        margin-bottom: 0em;
+        text-align: left;
+
+    }
+
+    .process-items-last {
+        text-align: left;
+    }
+
+    .process-items-first, .process-items, .process-items-last {
+        padding-top: 2% ;
+        height: 15.8em;
+
+    }
+
+    .items-info {
+        opacity: 1;
+        font-size: 0.52em;
+        margin-top: .5em;
+        width: 19em;
+    }
+
+    .items-text-content {
+        margin-left: 0em;
+    }
+
+    .items-title-last {
+        text-align: left;
+    }
+
+    .items-details, .items-info, .items-info-2nd-last{
+        transition: none;
+        margin-top: 0em;
+    }
+    .items-info-2nd-last:hover, .items-details:hover, .items-info:hover {
+        transition: none;
+        font-size: 0.52em;
+        margin-top: 0em;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+
+/* Media Query ends */
 
