@@ -1017,7 +1017,7 @@ body {
 
     .quote-content {
         width: 15em;
-        margin: 0px;
+        margin: auto;
         padding: 0em;
         background-color: #D1E2D1;
     }
