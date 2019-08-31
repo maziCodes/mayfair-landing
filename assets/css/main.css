@@ -631,7 +631,7 @@ body {
 .blog-images {
     width: 12em;
     height: 12em;
-    margin-right: 0.5em;
+    margin-right: 0.4em;
 }
 
 .blog-images:nth-child(3) {
