@@ -995,7 +995,7 @@ body {
         width: 26%
     }
 
-    ..blog-direction-left {
+    .blog-direction-left {
         margin-right: 1em;
     }
 
@@ -1016,7 +1016,7 @@ body {
     }
 
     .quote-content {
-        width: 20em;
+        width: 15em;
         margin: 0px;
         padding: 0em;
         background-color: #D1E2D1;
