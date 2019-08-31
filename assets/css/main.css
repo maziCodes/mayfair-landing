@@ -965,9 +965,14 @@ body {
         transition: none;
         margin-top: 0em;
     }
-    .items-info-2nd-last:hover .items-details:hover, .items-info:hover {
+    .items-info-2nd-last:hover, .items-details:hover, .items-info:hover {
         transition: none;
         margin-top: 0em;
+    }
+
+    .items-details {
+        width: 10em;
+        height: 12em;
     }
 
     .inspiration-title {
@@ -1030,31 +1035,50 @@ body {
     }
 
     .footer {
-        height: 60em;
+        height: 52em;
     }
 
-    .footer-row2 {
-        width: 0em;
+    .footer-items {
+        height: 19em;
     }
 
-    .footer-copyright {
-        
-        border: 1px solid red;
+
+    .footer-sm {
+        margin-left: 0px;
+        height: 10em;
+        padding-top: -2em;
+/*         inline-size: fit-content; */
+
     }
+
+    .sm-address{
+        font-size: 0.89em;
+    }
+
+    .footer-project-btn {
+        position: absolute;
+        top: initial;
+        left: 17em;
+        border: 1px solid #000000;
+        padding: .3em .6em 1.6em .1em;
+        writing-mode: vertical-rl;
+        text-orientation: mix;
+}
 
     .footer-copyright p {
         margin: 0px 0px;
-
-        border: 1px solid blue;
+        padding: 2em 0em;
     }
 
     .footer-social {
         padding-left: 0em;
         text-align: center;
         margin-top: 0em;
-        border: 1px solid red;
+    }
 
-}
+    .footer-social-img {
+        margin-right: 0.3em;
+    }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
